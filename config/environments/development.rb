@@ -34,4 +34,7 @@ Omrails::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+
+  # Require for devise on heroku
+  config.assets.initialize_on_precompile = false
 end
